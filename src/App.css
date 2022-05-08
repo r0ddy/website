@@ -36,3 +36,53 @@
     transform: rotate(360deg);
   }
 }
+
+#nav {
+  display: flex;
+  flex-direction: row;
+}
+
+#name {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+
+  color: #000000;
+  margin: 10px;
+}
+
+#cofound {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+#fullname {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+#startup-link {
+  margin: 10px;
+}
+
+.spacer {
+  flex-grow: 1;
+}
+
+#center-div {
+  display: flex;
+  flex-direction: row;
+}
+
+#info {
+  display: flex;
+  flex-direction: column;
+}
